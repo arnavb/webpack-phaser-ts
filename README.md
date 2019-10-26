@@ -11,7 +11,7 @@ This is a template Phaser project with the following things configured:
 - VSCode automatically running Eslint/Prettier
 - VSCode debugging (TODO)
 - Typescript strict mode (TODO)
-- Scripts for linting and formatting in `package.json` (TODO)
+- Scripts for linting and formatting in `package.json`
 
 ## Using this project
 
