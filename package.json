@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server --open",
-    "lint": "eslint 'src/**/*' --format codeframe"
+    "lint": "eslint 'src/**/*' --format codeframe",
+    "format": "npx prettier --write 'src/**/*'"
   },
   "keywords": [],
   "author": "",
