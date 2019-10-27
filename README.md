@@ -7,7 +7,7 @@ This is a template Phaser project with the following things configured:
 - Typescript
 - Eslint
 - Prettier
-- Game assets (TODO)
+- Game assets (stored in `src/assets`).
 - VSCode automatically running Eslint/Prettier
 - VSCode debugging (TODO)
 - Typescript strict mode (TODO)
