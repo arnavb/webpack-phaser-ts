@@ -5,13 +5,12 @@ This is a template Phaser project with the following things configured:
 - Webpack 4 (`npm run build`)
 - Wepback dev server (`npm start`)
 - Typescript
-- Eslint
-- Prettier
+- Eslint (`npm run lint`/`npm run lintfix`)
+- Prettier (`npm run format`)
 - Game assets (stored in `src/assets`).
 - VSCode automatically running Eslint/Prettier
 - VSCode debugging (TODO)
-- Typescript strict mode (TODO)
-- Scripts for linting and formatting in `package.json`
+- Typescript strict mode.
 
 ## Using this project
 
