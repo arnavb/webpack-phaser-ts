@@ -9,7 +9,7 @@ This is a template Phaser project with the following things configured:
 - Prettier (`npm run format`)
 - Game assets (stored in `src/assets`).
 - VSCode automatically running Eslint/Prettier
-- VSCode debugging (TODO)
+- VSCode debugging (A launch task is provided in `.vscode/launch.json`)
 - Typescript strict mode.
 
 ## Using this project
@@ -17,5 +17,9 @@ This is a template Phaser project with the following things configured:
 First git clone this repository. Next, modify `package.json` to make it specific to your project. Finally, place all of your code in the `src` folder, using any preferred organization. The only thing file that needs to exist is `src/game.ts` which is the entry point of the application (although this can be changed in `webpack.config.js`).
 
 To run the dev server, use `npm start`.
+
+Various other scripts are available in `package.json`.
+
+VSCode debugging support is also present, as mentioned above.
 
 To build for production (TODO: separate production config), run `npm run build`. Note that currently, production builds have _not_ been set up.
