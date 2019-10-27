@@ -1,5 +1,10 @@
+import * as Phaser from 'phaser';
+
 export class Scene extends Phaser.Scene {
+  preload(): void {
+    this.load.image('pizza', 'assets/pizza.png');
+  }
   create(): void {
-    this.add.text(100, 100, 'Hello Phaser!', { fill: '#0f0' });
+    this.add.sprite(300, 200, 'pizza');
   }
 }
